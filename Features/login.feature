@@ -22,7 +22,7 @@ Feature: Admin login
   @tag1
   Scenario: Administrator can login with valid credentials.
     Given The Administrator is on the login page.
-    When The Admin. enters a valid username and password.
+    When The Admin. enters a valid 'username' and 'password'.
     And Clicks on the login button.
     Then The user should be navigated to the Home page.
 
@@ -32,3 +32,4 @@ Feature: Admin login
     When The Admin. entered a wrong username or password.
     And Clicks on the login button.
     Then The Administrator will still on the login page.
+  
