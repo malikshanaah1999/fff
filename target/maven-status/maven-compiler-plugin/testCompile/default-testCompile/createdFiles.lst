@@ -1,1 +1,5 @@
+myfacebook\AddBookSteps.class
+myfacebook\SearchBookSteps.class
+myfacebook\LogoutSteps.class
+myfacebook\LoginSteps.class
 myfacebook\Mapping.class
